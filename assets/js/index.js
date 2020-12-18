@@ -10,7 +10,7 @@ $(document).ready(function() {
   } else {
     $(".flip-container, .front, .back, .image").css("width", 400);
     $(".flip-container, .front, .back, .image").css("height", 600);
-    $back.css("fontSize", .7 + "em")
+    $back.css("fontSize", 1.5 + "em")
   }
 
   $("body").click(function() {
@@ -27,7 +27,7 @@ $(document).ready(function() {
     } else {
       $(".flip-container, .front, .back, .image").css("width", 400);
       $(".flip-container, .front, .back, .image").css("height", 600);
-      $back.css("fontSize", .7 + "em")
+      $back.css("fontSize", 1.5 + "em")
     }
   });
 
